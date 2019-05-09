@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- Copyright:                                                                        -->
+<!--     Dit document is eigendom van Platform BISON onder de Stichting Connekt        -->
+<!--     en wordt gepubliceerd onder de Creative Commons Licentie by-nd/3.0/nl,        -->
+<!--     zie http://creativecommons.org/licences/by-nd/3.0/nl                          -->
+<!-- Dit XSD is onderdeel van het TMI9 NeTEx Nederlands profiel                        -->
+<!-- Versie:  v9.1.0                                                                   -->
+<!-- Historie:                                                                         -->
+<!--   v9.1.0 (mei 2019)                                                               -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<xsd:schema xmlns="http://www.netex.org.uk/netex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.netex.org.uk/netex" elementFormDefault="qualified" version="9.1.0" id="predefined-nl-xsd">
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!-- GEGEVENS STRUCTUREN                                                                                     -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <xsd:simpleType name="predefinedElementsNL">
+    <xsd:annotation>
+      <xsd:documentation>Voorgedefinieerde identificatie voor frames met de lijst concessieverleners, concessies of OV-zones</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="NL:AuthorityList"/>
+      <xsd:enumeration value="NL:AdministrativeZoneList"/>
+      <xsd:enumeration value="NL:TariffZoneList"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:complexType name="predefinedObject_" abstract="true">
+    <xsd:sequence>
+      <xsd:element name="Name" type="xsd:string"/>
+      <xsd:element name="ShortName" type="xsd:string"/>
+      <xsd:element name="Description" type="xsd:string" minOccurs="0"/>
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:string" use="required" form="unqualified"/>
+  </xsd:complexType>
+  <xsd:complexType name="authority">
+    <xsd:complexContent>
+      <xsd:extension base="predefinedObject_"/>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:complexType name="administrativeZone">
+    <xsd:complexContent>
+      <xsd:extension base="predefinedObject_"/>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:complexType name="tariffZone">
+    <xsd:complexContent>
+      <xsd:extension base="predefinedObject_"/>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!-- GEGEVENSLEVERING                                                                                        -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <xsd:element name="PublicationDelivery">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="PublicationTimestamp" type="xsd:string"/>
+        <xsd:element name="ParticipantRef" type="xsd:string"/>
+        <xsd:element name="Description" type="xsd:string" minOccurs="0"/>
+        <xsd:element name="dataObjects">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="GeneralFrame" type="generalFrame" maxOccurs="unbounded"/>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+      <xsd:attribute name="version" type="xsd:string" use="required" form="unqualified"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:complexType name="generalFrame">
+    <xsd:sequence>
+      <xsd:element name="Description" type="xsd:string"/>
+      <xsd:element name="TypeOfFrameRef">
+        <xsd:complexType>
+          <xsd:attribute name="ref" type="predefinedElementsNL" use="required" form="unqualified"/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="members">
+        <xsd:complexType>
+          <xsd:choice>
+            <!-- LET OP: De geleverde lijst moet overeenstemmen met het TypeOfFrame! -->
+            <xsd:sequence>
+              <xsd:element name="Authority" type="authority" maxOccurs="unbounded"/>
+            </xsd:sequence>
+            <xsd:sequence>
+              <xsd:element name="AdministrativeZone" type="administrativeZone" maxOccurs="unbounded"/>
+            </xsd:sequence>
+            <xsd:sequence>
+              <xsd:element name="TariffZone" type="tariffZone" maxOccurs="unbounded"/>
+            </xsd:sequence>
+          </xsd:choice>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:string" use="required" form="unqualified"/>
+    <xsd:attribute name="version" type="xsd:string" use="required" form="unqualified"/>
+  </xsd:complexType>
+</xsd:schema>
