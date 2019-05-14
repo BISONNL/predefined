@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- Copyright: -->
+<!--     Dit document is eigendom van Platform BISON onder de Stichting Connekt -->
+<!--     en wordt gepubliceerd onder de Creative Commons Licentie by-nd/3.0/nl, -->
+<!--     zie http://creativecommons.org/licences/by-nd/3.0/nl -->
+<!-- Dit bestand is gerelateerd aan v9.1.0 van het TMI9 NeTEx Nederlands profiel -->
+<!-- Versie:  20190501 -->
+<!-- Historie: -->
+<!--   v20190501 (mei 2019): initiele versie -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.netex.org.uk/netex predefined-bison-v910.xsd" version="9.1.0">
+	<PublicationTimestamp>2019-05-01T00:00:00Z</PublicationTimestamp>
+	<ParticipantRef>BISON</ParticipantRef>
+	<Description>BISON lijst met voorgedefinieerde KAR meldpunt typen, versie 20190501</Description>
+	<dataObjects>
+		<GeneralFrame id="BISON:GeneralFrame:Predefined_TypeOfActivation" version="20190501">
+			<Description>Lijst met voorgedefinieerde KAR meldpunt typen. Deze lijst wordt bijgehouden door BISON. De lijstelementen (TypeOfActivation) kunnen desgewenst (ongewijzigd!) worden overgenomen in een gegevenslevering conform het Nederlands NeTEx Profiel.</Description>
+			<TypeOfFrameRef ref="BISON:TypeOfActivationValues"/>
+			<members>
+				<ValueSet id="BISON:ValueSet:TypeOfActivation">
+					<values>
+						<TypeOfActivation id="BISON:TypeOfActivation:PreAnnouncement">
+							<Name>PreAnnouncement</Name>
+							<Description>Vooraanmelding</Description>
+						</TypeOfActivation>
+						<TypeOfActivation id="BISON:TypeOfActivation:Announcement">
+							<Name>Announcement</Name>
+							<Description>Aanmelding</Description>
+						</TypeOfActivation>
+						<TypeOfActivation id="BISON:TypeOfActivation:HaltLine">
+							<Name>HaltLine</Name>
+							<Description>Stopstreep</Description>
+						</TypeOfActivation>
+						<TypeOfActivation id="BISON:TypeOfActivation:LeaveMessage">
+							<Name>LeaveMessage</Name>
+							<Description>Uitmelding</Description>
+						</TypeOfActivation>
+					</values>
+				</ValueSet>
+			</members>
+		</GeneralFrame>
+	</dataObjects>
+</PublicationDelivery>
