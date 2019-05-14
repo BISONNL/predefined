@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- Copyright: -->
+<!--     Dit document is eigendom van Platform BISON onder de Stichting Connekt -->
+<!--     en wordt gepubliceerd onder de Creative Commons Licentie by-nd/3.0/nl, -->
+<!--     zie http://creativecommons.org/licences/by-nd/3.0/nl -->
+<!-- Dit bestand is gerelateerd aan v9.1.0 van het TMI9 NeTEx Nederlands profiel -->
+<!-- Versie:  20190501 -->
+<!-- Historie: -->
+<!--   v20190501 (mei 2019): initiele versie -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.netex.org.uk/netex predefined-nl-v910.xsd" version="9.1.0">
+	<PublicationTimestamp>2019-05-01T00:00:00Z</PublicationTimestamp>
+	<ParticipantRef>DOVA</ParticipantRef>
+	<Description>DOVA lijst met voorgedefinieerde identificaties van concessies, versie 20190501</Description>
+	<dataObjects>
+		<GeneralFrame id="NL:GeneralFrame:Predefined_AdministrativeZones" version="20190501">
+			<Description>Lijst met voorgedefinieerde identificaties van concessies. Deze lijst wordt bijgehouden door DOVA en gehost door BISON. De gebruikte lijstelementen (AdministrativeZone) worden (ongewijzigd!) overgenomen in een gegevenslevering conform het Nederlands NeTEx Profiel.</Description>
+			<TypeOfFrameRef ref="NL:AdministrativeZoneList"/>
+			<members>
+				<AdministrativeZone id="NL:AdministrativeZone:ACH-RIV">
+					<Name>Achterhoek Rivierenland</Name>
+					<ShortName>ACH-RIV</ShortName>
+					<Description>Achterhoek - Rivierenland</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:ALM">
+					<Name>Busvervoer Almere</Name>
+					<ShortName>ALM</ShortName>
+					<Description>Busvervoer Almere</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:AML">
+					<Name>Amstelland - Meerlanden</Name>
+					<ShortName>AML</ShortName>
+					<Description>Amstelland - Meerlanden</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:ASL">
+					<Name>Airport Shuttle Lelystad</Name>
+					<ShortName>ASL</ShortName>
+					<Description>Airport Shuttle Lelystad</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:BD">
+					<Name>Berkel-Dinkel</Name>
+					<ShortName>BD</ShortName>
+					<Description>Berkel-Dinkel</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:BO">
+					<Name>Oost-Brabant</Name>
+					<ShortName>BO</ShortName>
+					<Description>Oost-Brabant</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:BW">
+					<Name>West-Brabant</Name>
+					<ShortName>BW</ShortName>
+					<Description>West-Brabant</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:DAV">
+					<Name>Drechtsteden, Alblasserwaard, Vijfheerenlanden</Name>
+					<ShortName>DAV</ShortName>
+					<Description>Drechtsteden, Alblasserwaard, Vijfheerenlanden</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:DMG">
+					<Name>Drechtsteden - Molenlanden - Gorinchem</Name>
+					<ShortName>DMG</ShortName>
+					<Description>Drechtsteden, Alblasserwaard</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:FFHM">
+					<Name>Fast Ferry Hoek van Holland-Maasvlakte</Name>
+					<ShortName>FFHM</ShortName>
+					<Description>Fast Ferry Hoek van Holland-Maasvlakte</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:FFVB">
+					<Name>Fast Ferry Vlissingen-Breskens</Name>
+					<ShortName>FFVB</ShortName>
+					<Description>Fast Ferry Vlissingen-Breskens</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:GD">
+					<Name>Groningen - Drenthe</Name>
+					<ShortName>GD</ShortName>
+					<Description>Groningen - Drenthe</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:GOOI">
+					<Name>Gooi- en Vechtstreek</Name>
+					<ShortName>GOOI</ShortName>
+					<Description>Gooi en Vechtstreek</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:GVB">
+					<Name>Stadsvervoer Amsterdam</Name>
+					<ShortName>GVB</ShortName>
+					<Description>Stadsvervoer Amsterdam</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:HGL-R">
+					<Name>Rail Haaglanden</Name>
+					<ShortName>HGL-R</ShortName>
+					<Description>Rail Haaglanden</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:HGL-STD">
+					<Name>Bus Haaglanden Stad</Name>
+					<ShortName>HGL-STD</ShortName>
+					<Description>Bus Haaglanden Stad</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:HGL-STR">
+					<Name>Regionaal busvervoer Haaglanden</Name>
+					<ShortName>HGL-STR</ShortName>
+					<Description>Regionaal busvervoer Haaglanden</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:HLM-IJM">
+					<Name>Haarlem - IJmond</Name>
+					<ShortName>HLM-IJM</ShortName>
+					<Description>Haarlem/IJmond</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:HOV-GD">
+					<Name>HOV Groningen-Drenthe</Name>
+					<ShortName>HOV-GD</ShortName>
+					<Description>HOV Groningen-Drenthe</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:HWGO">
+					<Name>Hoeksche Waard - Goeree Overvlakkee</Name>
+					<ShortName>HWGO</ShortName>
+					<Description>Hoeksche Waard/Goerree Overflakkee</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:IJSM">
+					<Name>IJsselmond</Name>
+					<ShortName>IJSM</ShortName>
+					<Description>IJsselmond</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:IJSV">
+					<Name>IJssel-Vecht</Name>
+					<ShortName>IJSV</ShortName>
+					<Description>IJssel - Vecht</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:LLS">
+					<Name>Stadsvervoer Lelystad</Name>
+					<ShortName>LLS</ShortName>
+					<Description>Stadsvervoer Lelystad</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:LMB">
+					<Name>Limburg</Name>
+					<ShortName>LMB</ShortName>
+					<Description>Limburg</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:MO">
+					<Name>Midden-Overijssel</Name>
+					<ShortName>MO</ShortName>
+					<Description>Midden-Overijssel</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:NHN">
+					<Name>Noord-Holland Noord</Name>
+					<ShortName>NHN</ShortName>
+					<Description>Noord-Holland Noord</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:NZWF">
+					<Name>Noord- en Zuidwest Fryslân en Schiermonnikoog</Name>
+					<ShortName>NZWF</ShortName>
+					<Description>Noord- en Zuidwest Fryslân en Schiermonnikoog</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:PARKSHUT">
+					<Name>Parkshuttle Rivium</Name>
+					<ShortName>PARKSHUT</ShortName>
+					<Description>Parkshuttle Rivium</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:PUT">
+					<Name>Provincie Utrecht</Name>
+					<ShortName>PUT</ShortName>
+					<Description>Provincie Utrecht</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:RTD-B">
+					<Name>Bus Rotterdam e.o.</Name>
+					<ShortName>RTD-B</ShortName>
+					<Description>Bus Rotterdam e.o.</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:RTD-R">
+					<Name>Rail Rotterdam</Name>
+					<ShortName>RTD-R</ShortName>
+					<Description>Rail Rotterdam</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:RW">
+					<Name>Rijn-Waal</Name>
+					<ShortName>RW</ShortName>
+					<Description>Rijn-Waal</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:SAN">
+					<Name>Concessie Arnhem Nijmegen</Name>
+					<ShortName>SAN</ShortName>
+					<Description>Arnhem - Nijmegen</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:SRE">
+					<Name>Zuidoost-Brabant</Name>
+					<ShortName>SRE</ShortName>
+					<Description>Zuidoost-Brabant</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:TW">
+					<Name>Twente</Name>
+					<ShortName>TW</ShortName>
+					<Description>Twente</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:U-OV">
+					<Name>Tram en Bus Regio Utrecht + Vijfheerenlanden</Name>
+					<ShortName>U-OV</ShortName>
+					<Description>Tram en Bus Regio Utrecht + Vijfheerenlanden</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:U-OV-tm2018">
+					<Name>Tram en Bus Regio Utrecht</Name>
+					<ShortName>U-OV-tm2018</ShortName>
+					<Description>Tram en Bus Regio Utrecht</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:VE">
+					<Name>Veluwe</Name>
+					<ShortName>VE</ShortName>
+					<Description>Veluwe</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:VPR">
+					<Name>Voorne-Putten en Rozenburg</Name>
+					<ShortName>VPR</ShortName>
+					<Description>Voorne-Putten en Rozenburg</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:WATERBUS">
+					<Name>Waterbus Rotterdam Drechtsteden</Name>
+					<ShortName>WATERBUS</ShortName>
+					<Description>Waterbus Rotterdam Drechtsteden</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:WTL">
+					<Name>Waterland</Name>
+					<ShortName>WTL</ShortName>
+					<Description>Waterland</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:ZAAN">
+					<Name>Zaanstreek</Name>
+					<ShortName>ZAAN</ShortName>
+					<Description>Zaanstreek</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:ZHN">
+					<Name>Zuid-Holland Noord</Name>
+					<ShortName>ZHN</ShortName>
+					<Description>Zuid-Holland Noord</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:ZLD">
+					<Name>Zeeland</Name>
+					<ShortName>ZLD</ShortName>
+					<Description>Zeeland</Description>
+				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:ZOF">
+					<Name>Zuidoost Fryslân, Vlieland, Terschelling, Ameland</Name>
+					<ShortName>ZOF</ShortName>
+					<Description>Zuidoost Fryslân, Vlieland, Terschelling, Ameland</Description>
+				</AdministrativeZone>
+			</members>
+		</GeneralFrame>
+	</dataObjects>
+</PublicationDelivery>

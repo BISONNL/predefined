@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- Copyright: -->
+<!--     Dit document is eigendom van Platform BISON onder de Stichting Connekt -->
+<!--     en wordt gepubliceerd onder de Creative Commons Licentie by-nd/3.0/nl, -->
+<!--     zie http://creativecommons.org/licences/by-nd/3.0/nl -->
+<!-- Dit bestand is gerelateerd aan v9.1.0 van het TMI9 NeTEx Nederlands profiel -->
+<!-- Versie:  20190501 -->
+<!-- Historie: -->
+<!--   v20190501 (mei 2019): initiele versie -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.netex.org.uk/netex predefined-nl-v910.xsd" version="9.1.0">
+	<PublicationTimestamp>2019-05-01T00:00:00Z</PublicationTimestamp>
+	<ParticipantRef>DOVA</ParticipantRef>
+	<Description>DOVA lijst met voorgedefinieerde identificaties van concessieverleners, versie 20190501</Description>
+	<dataObjects>
+		<GeneralFrame id="NL:GeneralFrame:Predefined_Authorities" version="20190501">
+			<Description>Lijst met voorgedefinieerde identificaties van concessieverleners. Deze lijst wordt bijgehouden door DOVA en gehost door BISON. De gebruikte lijstelementen (Authority) worden (ongewijzigd!) overgenomen in een gegevenslevering conform het Nederlands NeTEx Profiel.</Description>
+			<TypeOfFrameRef ref="NL:AuthorityList"/>
+			<members>
+				<Authority id="NL:Authority:ALM">
+					<Name>Almere</Name>
+					<ShortName>ALM</ShortName>
+					<Description>Gemeente Almere</Description>
+				</Authority>
+				<Authority id="NL:Authority:FLV">
+					<Name>Flevoland</Name>
+					<ShortName>FLV</ShortName>
+					<Description>Provincie Flevoland</Description>
+				</Authority>
+				<Authority id="NL:Authority:FR">
+					<Name>Friesland</Name>
+					<ShortName>FR</ShortName>
+					<Description>Provincie Friesland</Description>
+				</Authority>
+				<Authority id="NL:Authority:GLD">
+					<Name>Gelderland</Name>
+					<ShortName>GLD</ShortName>
+					<Description>Provincie Gelderland</Description>
+				</Authority>
+				<Authority id="NL:Authority:GLDOVS">
+					<Name>Gelderland &amp; Overijssel</Name>
+					<ShortName>GLDOVS</ShortName>
+					<Description>Provincies Gelderland en Overijssel</Description>
+				</Authority>
+				<Authority id="NL:Authority:LLS">
+					<Name>Lelystad</Name>
+					<ShortName>LLS</ShortName>
+					<Description>Gemeente Lelystad</Description>
+				</Authority>
+				<Authority id="NL:Authority:LMB">
+					<Name>Limburg</Name>
+					<ShortName>LMB</ShortName>
+					<Description>Provincie Limburg</Description>
+				</Authority>
+				<Authority id="NL:Authority:MRDH">
+					<Name>Metropoolregio Rotterdam Den Haag</Name>
+					<ShortName>MRDH</ShortName>
+					<Description>Metropoolregio Rotterdam Den Haag</Description>
+				</Authority>
+				<Authority id="NL:Authority:OVFLV">
+					<Name>Overijssel &amp; Flevoland</Name>
+					<ShortName>OVFLV</ShortName>
+					<Description>Provincies Overijssel en Flevoland</Description>
+				</Authority>
+				<Authority id="NL:Authority:OVGD">
+					<Name>OV-bureau Groningen Drenthe</Name>
+					<ShortName>OVGD</ShortName>
+					<Description>OV-bureau Groningen Drenthe</Description>
+				</Authority>
+				<Authority id="NL:Authority:OVOOST">
+					<Name>OV-Oost</Name>
+					<ShortName>OVOOST</ShortName>
+					<Description>Provincies Gelderland, Flevoland en Overijssel</Description>
+				</Authority>
+				<Authority id="NL:Authority:OVS">
+					<Name>Overijssel</Name>
+					<ShortName>OVS</ShortName>
+					<Description>Provincie Overijssel</Description>
+				</Authority>
+				<Authority id="NL:Authority:PNB">
+					<Name>Noord Brabant</Name>
+					<ShortName>PNB</ShortName>
+					<Description>Provincie Noord Brabant</Description>
+				</Authority>
+				<Authority id="NL:Authority:PNH">
+					<Name>Noord Holland</Name>
+					<ShortName>PNH</ShortName>
+					<Description>Provincie Noord Holland</Description>
+				</Authority>
+				<Authority id="NL:Authority:PUT">
+					<Name>Utrecht</Name>
+					<ShortName>PUT</ShortName>
+					<Description>Provincie Utrecht</Description>
+				</Authority>
+				<Authority id="NL:Authority:PZH">
+					<Name>Zuid Holland</Name>
+					<ShortName>PZH</ShortName>
+					<Description>Provincie Zuid Holland</Description>
+				</Authority>
+				<Authority id="NL:Authority:VRA">
+					<Name>Vervoerregio Amsterdam</Name>
+					<ShortName>VRA</ShortName>
+					<Description>Vervoerregio Amsterdam</Description>
+				</Authority>
+				<Authority id="NL:Authority:ZLD">
+					<Name>Zeeland</Name>
+					<ShortName>ZLD</ShortName>
+					<Description>Provincie Zeeland</Description>
+				</Authority>
+			</members>
+		</GeneralFrame>
+	</dataObjects>
+</PublicationDelivery>
