@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-<!-- Copyright: -->
-<!--     Dit document is eigendom van Platform BISON onder de Stichting Connekt -->
-<!--     en wordt gepubliceerd onder de Creative Commons Licentie by-nd/3.0/nl, -->
-<!--     zie http://creativecommons.org/licences/by-nd/3.0/nl -->
-<!-- Dit bestand is gerelateerd aan v9.1.0 van het TMI9 NeTEx Nederlands profiel -->
-<!-- Versie:  20190501 -->
-<!-- Historie: -->
-<!--   v20190501 (mei 2019): initiele versie -->
+<!-- Copyright:                                                                        -->
+<!--     Dit document is eigendom van Platform BISON onder Samenwerkingsverband DOVA   -->
+<!--     en wordt gepubliceerd onder de Creative Commons Licentie by-nd/3.0/nl,        -->
+<!--     zie http://creativecommons.org/licences/by-nd/3.0/nl                          -->
+<!-- Dit XSD is gerelateerd aan het TMI9 NeTEx NL Profiel en het TMI9 SIRI NL Profiel  -->
+<!--                                                                                   -->
+<!-- Versie:  v20190501a                                                               -->
+<!--                                                                                   -->
+<!-- Historie:                                                                         -->
+<!--   v20190501  (mei 2019)     initiele versie                                       -->
+<!--   v20190501a (januari 2020) copyright aangepast                                   -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 <PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.netex.org.uk/netex predefined-nl-v910.xsd" version="9.1.0">
 	<PublicationTimestamp>2019-05-01T00:00:00Z</PublicationTimestamp>

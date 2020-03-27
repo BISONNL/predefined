@@ -1,7 +1,12 @@
 # .gitattributes
 # 
-# only the XSDs are relevant for a release
-# so exclude all the actual lists and enumerations
+# Alleen de XSDs zijn relevant voor een release,
+# want concrete lijsten en enumeraties wil je apart kunnen aanpassen.
+# Hier dus alle XML-bestanden uitsluiten.
+#
 
 xml/*.xml export-ignore
+xml/      export-ignore
+
+.gitattributes  export-ignore
 
