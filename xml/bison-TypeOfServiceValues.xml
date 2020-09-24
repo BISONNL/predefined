@@ -6,23 +6,28 @@
 <!--     zie http://creativecommons.org/licences/by-nd/3.0/nl                          -->
 <!-- Dit XSD is gerelateerd aan het TMI9 NeTEx NL Profiel en het TMI9 SIRI NL Profiel  -->
 <!--                                                                                   -->
-<!-- Versie:  v20190501a                                                               -->
+<!-- Versie:  v20200924                                                                -->
 <!--                                                                                   -->
 <!-- Historie:                                                                         -->
-<!--   v20190501  (mei 2019)     initiele versie                                       -->
-<!--   v20190501a (januari 2020) copyright aangepast                                   -->
+<!--   v20190501  (mei 2019)       initiele versie                                     -->
+<!--   v20190501a (januari 2020)   copyright aangepast                                 -->
+<!--   v20200924  (september 2020) waarde 'standaard' toegevoegd                       -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.netex.org.uk/netex predefined-bison-v910.xsd" version="9.1.0">
-	<PublicationTimestamp>2019-05-01T00:00:00Z</PublicationTimestamp>
+<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.netex.org.uk/netex ../xsd/predefined-bison-v910.xsd" version="9.1.0">
+	<PublicationTimestamp>2020-09-24T00:00:00Z</PublicationTimestamp>
 	<ParticipantRef>BISON</ParticipantRef>
-	<Description>BISON lijst met voorgedefinieerde formules (lijnkenmerken), versie 20190501</Description>
+	<Description>BISON lijst met voorgedefinieerde formules (lijnkenmerken)</Description>
 	<dataObjects>
-		<GeneralFrame id="BISON:GeneralFrame:Predefined_TypeOfService" version="20190501">
+		<GeneralFrame id="BISON:GeneralFrame:Predefined_TypeOfService" version="20200924">
 			<Description>Lijst met voorgedefinieerde formules (lijnkenmerken). Deze lijst wordt bijgehouden door BISON. De lijstelementen (TypeOfService) kunnen desgewenst (ongewijzigd!) worden overgenomen in een gegevenslevering conform het Nederlands NeTEx Profiel.</Description>
 			<TypeOfFrameRef ref="BISON:TypeOfServiceValues"/>
 			<members>
 				<ValueSet id="BISON:ValueSet:TypeOfService">
 					<values>
+						<TypeOfService id="BISON:TypeOfService:Standaard">
+							<Name>Standaard</Name>
+							<Description>Standaard vervoer</Description>
+						</TypeOfService>
 						<TypeOfService id="BISON:TypeOfService:Flex">
 							<Name>Flex</Name>
 							<Description>Flexibel vervoer</Description>

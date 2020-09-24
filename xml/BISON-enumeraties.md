@@ -9,6 +9,6 @@ Het betreft de volgende enumeraties:
 
 Enumeratie                                 | TypeOfValue (ValueSet) | Huidige versie
 ------------------------------------------ | ---------------------- | ---------------
-Formules (lijnkenmerken)                   | TypeOfService          | v20190501a
+Formules (lijnkenmerken)                   | TypeOfService          | v20200924
 Soorten apparatuur t.b.v. toegankelijkheid | TypeOfEquipment        | v20190501a
 Soorten KAR-meldpunt                       | TypeOfActivation       | v20190501a
