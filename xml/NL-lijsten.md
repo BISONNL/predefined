@@ -3,7 +3,7 @@
 *ten behoeve van het NL NeTEx Profiel en het NL SIRI Profiel*
 
 Deze lijsten worden onderhouden door DOVA via het platform BISON.
-De actuele versies van deze lijsten staan hier op github in de [submap xml](http://github.com/BISONNL/predefined/xml).
+De actuele versies van deze lijsten staan hier op github in de [submap xml](http://github.com/BISONNL/predefined/tree/master/xml).
 
 Het betreft de volgende lijsten:
 
