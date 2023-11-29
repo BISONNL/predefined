@@ -101,6 +101,11 @@
 					<ShortName>PZH</ShortName>
 					<Description>Provincie Zuid Holland</Description>
 				</Authority>
+				<Authority id="NL:Authority:TESO">
+					<Name>Koninklijke N.V. Texels Eigen Stoomboot Onderneming</Name>
+					<ShortName>TESO</ShortName>
+					<Description>TESO bootdienst</Description>
+				</Authority>
 				<Authority id="NL:Authority:VRA">
 					<Name>Vervoerregio Amsterdam</Name>
 					<ShortName>VRA</ShortName>
