@@ -191,6 +191,11 @@
 					<ShortName>SRE</ShortName>
 					<Description>Zuidoost-Brabant</Description>
 				</AdministrativeZone>
+				<AdministrativeZone id="NL:AdministrativeZone:TESO">
+					<Name>Koninklijke N.V. Texels Eigen Stoomboot Onderneming</Name>
+					<ShortName>TESO</ShortName>
+					<Description>TESO bootdienst</Description>
+				</AdministrativeZone>
 				<AdministrativeZone id="NL:AdministrativeZone:TW">
 					<Name>Twente</Name>
 					<ShortName>TW</ShortName>

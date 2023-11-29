@@ -9,6 +9,6 @@ Het betreft de volgende lijsten:
 
 Gegevens           | Object (Class)     | Huidige versie
 ------------------ | ------------------ | ---------------
-Concessies         | AdministrativeZone | v20190501a
-Concessieverleners | Authority          | v20190501a
+Concessies         | AdministrativeZone | v20231119
+Concessieverleners | Authority          | v20231119
 OV-zones           | TariffZone         | v20190501a
